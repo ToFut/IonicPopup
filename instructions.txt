@@ -1,0 +1,11 @@
+---------------------------------------------
+--------------------------------CREATE DIALOG
+---------------------------------------------
+1) generate component (ionic g component COMPONENT_NAME)
+2) extend 'base-dialog.ts'
+
+---------------------------------------------
+-------------SEND & RECEIVE DATA FROM DIALOGS
+---------------------------------------------
+Send Data As usual Modal
+To Received Data, set dataReturn value, Located at 'base-dialog.ts'.

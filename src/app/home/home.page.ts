@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import {ModalController} from '@ionic/angular';
+import {Component} from '@angular/core';
 import {DialogFullscreenComponent} from '../dialog/dialog-fullscreen/dialog-fullscreen.component';
 import {AppService} from '../service/app.service';
 import {DialogWindowedComponent} from '../dialog/dialog-windowed/dialog-windowed.component';
@@ -21,8 +20,7 @@ export class HomePage {
         const modal = await fullSize.showDialog({ dataFromHome: this.textFromFullScreen });
         modal.onDidDismiss()
             .then((data) => {
-                const dataFromDialog = data['data'];
-                this.textFromFullScreen = dataFromDialog;
+                this.textFromFullScreen = data['data'];
             });
     }
 
@@ -31,8 +29,7 @@ export class HomePage {
         const modal = await windowedSize.showDialog({ dataFromHome: this.textFromWindow });
         modal.onDidDismiss()
             .then((data) => {
-                const dataFromDialog = data['data'];
-                this.textFromWindow = dataFromDialog;
+                this.textFromWindow = data['data'];
             });
     }
 }
