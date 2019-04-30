@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import {DialogFullscreenComponent} from './dialog/dialog-fullscreen/dialog-fullscreen.component';
-import {DialogWindowedComponent} from './dialog/dialog-windowed/dialog-windowed.component';
+import {DialogFullscreenComponent} from './dialogs/dialogs-fullscreen/dialogs-fullscreen.component';
+import {DialogWindowedComponent} from './dialogs/dialogs-windowed/dialogs-windowed.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
