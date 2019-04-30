@@ -11,8 +11,8 @@ import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 // DIALOGS
 import {Dialogs} from '@ionic-native/dialogs/ngx';
-import {DialogFullscreenComponent} from './dialogs/dialogs-fullscreen/dialogs-fullscreen.component';
-import {DialogWindowedComponent} from './dialogs/dialogs-windowed/dialogs-windowed.component';
+import {DialogFullscreenComponent} from './dialog/dialog-fullscreen/dialog-fullscreen.component';
+import {DialogWindowedComponent} from './dialog/dialog-windowed/dialog-windowed.component';
 // MATERIAL
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule, MatCheckboxModule, MatDialogModule} from '@angular/material';

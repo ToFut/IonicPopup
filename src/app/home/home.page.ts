@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import {ModalController} from '@ionic/angular';
-import {DialogFullscreenComponent} from '../dialogs/dialogs-fullscreen/dialogs-fullscreen.component';
+import {DialogFullscreenComponent} from '../dialog/dialog-fullscreen/dialog-fullscreen.component';
 import {AppService} from '../service/app.service';
-import {DialogWindowedComponent} from '../dialogs/dialogs-windowed/dialogs-windowed.component';
+import {DialogWindowedComponent} from '../dialog/dialog-windowed/dialog-windowed.component';
 
 @Component({
   selector: 'app-home',
