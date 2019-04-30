@@ -1,0 +1,11 @@
+<ion-content >
+  <button (click)="dismissDialog()">X</button>
+  <p>
+    Full Screen Dialog Example:
+    textInput: {{dataFromHome}}
+  </p>
+  <input autocomplete="off" matInput #textFromInput (keyup)="dataReturned = textFromInput.value"
+         placeholder="enter text to show"
+         value="{{this.textInput}}">
+
+</ion-content>
