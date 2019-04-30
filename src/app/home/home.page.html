@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Hello World
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <table>
+  <tr>
+    <td>
+      <input autocomplete="off" matInput #FullScreen (keyup)="textFromFullScreen = FullScreen.value"
+             placeholder="Set Full Screen Text"
+             value="{{this.textFromFullScreen}}">
+    </td>
+    <td>
+      <ion-button (click)="showFullScreen()">Show Full Screen Dialog Text </ion-button>
+    </td>
+  </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td>
+        <input autocomplete="off" matInput #InputText (keyup)="textFromWindow = InputText.value"
+               placeholder="Set Window Text"
+               value="{{this.textFromWindow}}">
+      </td>
+      <td>
+        <ion-button (click)="showWindowed()">Show Window Dialog Text </ion-button>
+      </td>
+    </tr>
+  </table>
+</ion-content>
